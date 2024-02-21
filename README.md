@@ -1,5 +1,6 @@
 Below commands can be executed to check the execution
 38  gcloud artifacts repositories create quickstart-docker-repo --repository-format=docker     --location=us-west2 --description="Docker repository"
+
 39  gcloud artifacts repositories list
 40  gcloud config get-value project
 41  gcloud builds submit --region=us-west2 --tag us-west2-docker.pkg.dev/peerless-sensor-414405/quickstart-docker-repo/quickstart-image:tag1
